@@ -1,6 +1,6 @@
 # DNA-Payments-PDF-Scraper-and-Extractor
 
-## The work is split up into 4 parts:
+## The work is split up into 6 parts:
 ### • Scraping & Downloading
 ### • Unzipping & Steralisation
 ### • Folder & Infomaker
