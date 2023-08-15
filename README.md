@@ -27,4 +27,11 @@ Then run "run.ps1" but make sure you change the variables in the powershell scri
 **It will look like it is not downloading, but give it a few minutes as the server takes time to respond to the download request**
 
 
+## Part 2: Unzipping & Steralisation
+## Part 3: Folder & Infomaker
+## Part 4: Scanning & Processing
+## Part 5: Compiling it all
+## Part 6: Finalisation
+
+
 
