@@ -31,8 +31,9 @@ Then run "run.ps1" but make sure you change the variables in the powershell scri
 In a "master" folder, make another folder called "raw-pdfs". Use an unzipper, and unzip all to raw-pdfs. 
 
 ## Part 3: Folder & Infomaker
-Now run filemaker.py. It will make make folders and place each file in a folder.
-Then run infomaker.py. It will read each pdf and make a JSON file with data about the PDF and merchant name. **(This will take a while)**
+Install [GhostScript](https://ghostscript.com/releases/gsdnld.html). This is used to repair the PDFs as sometimes these PDFs are broken by SalesForce. <br />
+Run repair.py. Replace the raw_pdfs with the repaired PDFs. 
+Now run filemaker.py. It will make make folders and place each file in a folder. Then run infomaker.py. It will read each pdf and make a JSON file with data about the PDF and merchant name. **(This will take a while)**<br />
 The JSON file will contain information like this:
 ```
 {
